@@ -1,6 +1,11 @@
-import React from 'react';
+import { IoMdMenu } from "react-icons/io";
+import Link from '../Link/Link';
+import { useState } from "react";
+import { IoClose } from "react-icons/io5";
+
 
 const NavBar = () => {
+    const [open,setOpen] =useState(false)
 
     const routes = [
         { id: 1, path: "/", name: "Home" },
@@ -13,9 +18,17 @@ const NavBar = () => {
 
     return (
         <nav>
+           <div className="md:hidden" onClick={() =>setOpen(!open)}>
             {
-                routes.map(route => <li key={route.id}><a href={`${route.path}`}>{route.name}</a></li>)
+                open===true?<IoClose className="text-2xl" />:<IoMdMenu className="text-2xl" />
             }
+             
+           </div>
+            <ul className='md:flex'>
+                {
+                    routes.map(route => <Link key={route.id} route={route}></Link>)
+                }
+            </ul>
         </nav>
     );
 };
