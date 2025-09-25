@@ -1,0 +1,143 @@
+[
+  {
+    "id": 1,
+    "name": "Bronze Membership",
+    "price": 25.00,
+    "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?w=500",
+    "features": [
+      "Gym equipment access",
+      "Locker room access",
+      "Dry towels provided",
+      "Access hours: 8 AM - 10 PM"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Silver Membership",
+    "price": 45.00,
+    "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1599058917212-d750089bc07d?w=500",
+    "features": [
+      "All Bronze features",
+      "5 group classes per month",
+      "Free water & locker",
+      "Beginner fitness assessment",
+      "Access hours: 6 AM - 11 PM"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Gold Membership",
+    "price": 65.00,
+    "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=500",
+    "features": [
+      "All Silver features",
+      "Unlimited group classes",
+      "Personal trainer (1 session/month)",
+      "Sauna access",
+      "Nutrition plan consultation",
+      "Access hours: 5 AM - 12 AM"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Platinum Membership",
+    "price": 90.00,
+    "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=500",
+    "features": [
+      "All Gold features",
+      "Personal trainer (3 sessions/month)",
+      "Massage & steam room",
+      "Priority support",
+      "Exclusive workshops",
+      "VIP locker"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Diamond Membership",
+    "price": 120.00,
+    "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1584438784894-089d6a62b8d1?w=500",
+    "features": [
+      "All Platinum features",
+      "Unlimited PT sessions",
+      "Full body scan & health report",
+      "Custom diet & supplement plan",
+      "24/7 access",
+      "Guest pass benefits"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Fitness Plus",
+    "price": 35.00,
+    "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1526401485004-1b4f41dfdbf4?w=500",
+    "features": [
+      "Gym equipment access",
+      "2 group classes per month",
+      "Locker facility",
+      "Access hours: 7 AM - 11 PM",
+      "Motivation coaching call"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Weekend Warrior",
+    "price": 20.00,
+    "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1528763380143-65b3fce07b82?w=500",
+    "features": [
+      "Gym access Sat & Sun",
+      "Locker room use",
+      "1 group class on weekend",
+      "Access hours: 6 AM - 9 PM"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Student Plan",
+    "price": 30.00,
+    "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1531891437562-430a331a6c15?w=500",
+    "features": [
+      "Gym equipment access",
+      "Discounted group classes",
+      "Locker room",
+      "Student ID required",
+      "Access hours: 6 AM - 10 PM"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Early Bird",
+    "price": 40.00,
+    "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1574680096145-6866d0bc272e?w=500",
+    "features": [
+      "Gym access from 5 AM – 9 AM",
+      "Locker room",
+      "Free water",
+      "1 fitness assessment",
+      "Motivation group chat"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Night Owl",
+    "price": 50.00,
+    "currency": "USD",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500",
+    "features": [
+      "Gym access from 9 PM – 2 AM",
+      "Locker access",
+      "Late-night classes twice a week",
+      "Quiet time equipment",
+      "Snack bar discount"
+    ]
+  }
+]
