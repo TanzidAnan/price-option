@@ -17,14 +17,14 @@ const NavBar = () => {
 
 
     return (
-        <nav>
+        <nav className="text-amber-400 py-2.5">
            <div className="md:hidden" onClick={() =>setOpen(!open)}>
             {
                 open===true?<IoClose className="text-2xl" />:<IoMdMenu className="text-2xl" />
             }
              
            </div>
-            <ul className='md:flex'>
+            <ul className={`md:flex absolute ${open ? '' : 'hidden'}`}>
                 {
                     routes.map(route => <Link key={route.id} route={route}></Link>)
                 }
