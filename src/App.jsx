@@ -1,7 +1,7 @@
 import './App.css'
 import DaisyNav from './Compontents/DaisyNav/DaisyNav'
 import NavBar from './Compontents/NavBar/NavBar'
-import PriceOption from './Compontents/PriceOption/PriceOption'
+import PriceOptions from './Compontents/PriceOptions/PriceOptions'
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <>
       {/* <DaisyNav></DaisyNav> */}
       <NavBar></NavBar>
-      <PriceOption></PriceOption>
+      <PriceOptions></PriceOptions>
     </>
   )
 }
