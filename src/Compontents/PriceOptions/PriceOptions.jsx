@@ -10,7 +10,7 @@ const PriceOptions = () => {
     }, [])
 
     return (
-        <div>
+        <div className="w-10/12 mx-auto">
             <h1>Pirce</h1>
             <div className="grid grid-cols-3 gap-2.5">
                 {
