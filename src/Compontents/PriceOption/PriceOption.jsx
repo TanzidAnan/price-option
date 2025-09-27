@@ -6,7 +6,7 @@ const PriceOption = ({ option }) => {
     return (
         <div className='bg-amber-800 rounded-2xl p-4 text-white flex flex-col '>
             <h2 className=' text-center'>
-                <span className='text-4xl font-extrabold'>{price}</span>
+                <span className='text-6xl font-extrabold'>{price}</span>
                 <span>/mon</span>
             </h2>
             {/* <img className='w-20' src={image} alt="gym" /> */}
